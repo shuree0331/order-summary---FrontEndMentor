@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
 
-@media screen and (max-width: 1440px) {
-    /* For mobile phone */
-    .box {
-        width: 375px;
-    }
-}
-
 * {
     font-family: 'Red Hat Display', sans-serif;
 }
@@ -79,7 +72,7 @@ button {
     border-radius: 7px;
     margin-top: 20px;
     margin-bottom: 10px;
-    background-color: hsl(245, 70%, 65%);
+    background-color: rgb(62, 27, 189);
     border-radius: 10px;
     cursor: pointer;
     color: white;
@@ -88,19 +81,32 @@ button {
     box-shadow: 0px 15px 20px hsl(220, 11%, 74%);
 }
 
+button:hover {
+    background-color:  hsl(245, 73%, 63%);
+}
+
 a {
     height: 30px;
     margin: auto;
-    text-decoration: none;
     font-weight: bold;
     font-size: 12px;
-    color: hsl(245, 71%, 70%);
+    color: hsl(245, 64%, 49%);
+}
+
+a:hover {
+    color: mediumslateblue;
+    text-decoration: none;
 }
 
 footer a {
-    color: #000;
+    color: gray;
     margin: 20px;
     font-size: 13px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
 }
 
 .music-icon {
@@ -147,5 +153,85 @@ p {
 
 h1 {
     font-size: 24px;
+}
+
+@media screen and (max-width: 375px) {
+    /* For mobile phone */
+    body {
+        height: 97vh;
+    }
+    
+    .box {
+        width: 330px;
+        height: 560px;
+        border-radius: 20px;
+    }
+
+    img {
+        width: 100%;
+        height: 160px;
+        border-radius: 20px;
+        border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+
+    header {
+        width: 240px;
+        margin-top: 25px;
+    }
+
+    h1 {
+        font-size: 22px;
+    }
+
+    main {
+        width: 280px;
+        height: 85px;
+    }
+
+    footer {
+        width: 280px;
+    }
+
+    button {
+        height: 50px;
+        background-color: rgb(68, 0, 255);
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    button:hover{
+        background-color: mediumblue;
+    }
+
+    a {
+        height: 20px;
+        font-size: 14px;
+        color: rgb(82, 48, 231);
+    }
+
+    main a {
+        text-decoration: underline;
+    }
+
+    footer a {
+        color:rgb(122, 121, 121);
+        font-size: 16px;
+        margin: 10px;
+    }
+
+    .music-icon img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .music-icon {
+        margin-left: 16px;
+        margin-right: 15px;
+    }
+
+    .plan-change {
+        margin-right: 12px;
+    }
 }
 
