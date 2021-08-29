@@ -25,16 +25,19 @@ This is a solution to the [Order summary card challenge on Frontend Mentor](http
 Users should be able to:
 
 - See hover states for interactive elements
+<br></br>
+<br></br>
+### **Screenshots**
 
-### Screenshot
-
-![Screenshots](./Screenshots)
+- Active State Design![Active state design](./Screenshots/Active-state-screenshot.png)
+- Desktop Design ![Desktop design](./Screenshots/Desktop-design-screenshot.png)
+- Mobile Design ![Mobile design](./Screenshots/Mobile-design-screenshot.png)
 
 
 ### Links
 
 - Solution URL: [GitHub](https://github.com/shuree0331/order-summary---FrontEndMentor)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Desktop Design](https://shuree0331.github.io/order-summary---FrontEndMentor/order.html)
 
 ## My process
 
